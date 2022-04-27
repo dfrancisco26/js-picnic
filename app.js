@@ -1,5 +1,5 @@
 const soda = document.getElementById('soda');
-
+const cheese = document.getElementById('cheese');
 
 
 
@@ -7,6 +7,8 @@ const soda = document.getElementById('soda');
 soda.addEventListener('click', () => {
     soda.classList.toggle ('picked');
 });
-
+cheese.addEventListener('click', () => {
+    cheese.classList.toggle('picked');
+});
 
 
